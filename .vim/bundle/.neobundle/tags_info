@@ -1,0 +1,15 @@
+ctrlp.vim
+neobundle.vim
+neosnippet-snippets
+neosnippet.vim
+nerdtree
+rainbow
+tabular
+tagbar
+tmuxline.vim
+vim-airline
+vim-colorschemes
+vim-fugitive
+vim-indent-guides
+vim-latex
+vimshell

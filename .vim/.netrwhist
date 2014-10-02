@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/emead/Documents/CSC142/labs/project2part2'
+let g:netrw_dirhist_2='/home/emead/Documents/CSC142/labs/project2part3'
+let g:netrw_dirhist_3='/home/emead/Documents/CSC142/labs/project2part3/Players'
