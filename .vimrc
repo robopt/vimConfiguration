@@ -12,7 +12,6 @@ call neobundle#begin(expand('$HOME/.vim/bundle'))
 " Let NeoBundle manage NeoBundle
 " Required:
 NeoBundleFetch 'Shougo/neobundle.vim'
-
 " My Bundles here:
 NeoBundle 'Shougo/neosnippet.vim'
 NeoBundle 'Shougo/neosnippet-snippets'
@@ -69,6 +68,13 @@ set hlsearch
 set omnifunc=syntaxcomplete#Complete
 set laststatus=2
 let mapleader=","
+
+let g:rainbow_active = 1
+let g:rainbow_conf = {
+     \    'guifgs': ['royalblue3', 'darkorange3', 'seagreen3', 'firebrick', 'darkorchid3'],
+     \    'ctermfgs': ['darkgray', 'darkblue', 'darkmagenta', 'darkcyan', 'darkred', 'darkgreen'],
+      \   'separately' : { '*': {}, 'vim' : {} },
+      \   }
 
 let g:rbpt_colorpairs = [
       \ ['brown',       'RoyalBlue3'],
